@@ -1,0 +1,72 @@
+<head>
+  <link rel="stylesheet"type="text/css" href="xyz.css">
+  <div class="navbar">
+    <h1>ANDROID ERA
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</h1>
+<body>
+
+
+<section>
+ <img class="mySlides" src="android-image.png" style="width:100%">
+ <img class="mySlides" src="AndroidPIT-best-free-android-apps-hero.jpg" style="width:100%">
+ <img class="mySlides" src="6180104944_73e0a291aa_b.jpg" style="width:100%">
+ <img class="mySlides" src="2010_1x.jpg" style="width:100%">
+
+</section>
+<section class="textxyz" style="max-width:600px">
+  <h2 class="w3-wide"><center> Meet Android </center></h2>
+  <p class="w3-opacity"><i>The all version of Android is here with sweet features never seen before on mobile</i></p>
+</section>
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p>MARSHMELLOW</p>
+    <img src="marshmellow.jpg" alt="Random Name" style="width:100%">
+    <p>peace of mind</p>
+  </article>
+  <article class="w3-third">
+    <p>NOUGAT</p>
+    <img src="naugat.png" alt="Random Name" style="width:100%">
+    <p>Made for you.</p>
+  </article>
+  <article class="w3-third">
+    <p>OREO</p>
+    <img src="oreo.jpg" alt="Random Name" style="width:100%">
+    <p>Open Wonder</p>
+  </article>
+</section>
+<footer>
+ <p>Posted by:H&G</p>
+ <p>Contact information: 9846948875,8289840424</p>
+ <i class="fa fa-cloud"></i>
+<i class="fa fa-heart"></i>
+<i class="fa fa-car"></i>
+<i class="fa fa-file"></i>
+<i class="fa fa-bars"></i>
+</footer>
+
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000);
+}
+</script>
+
+</div>
+</head>
